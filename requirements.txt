@@ -1,0 +1,24 @@
+# Core dependencies
+Flask>=2.0.0
+Flask-CORS>=3.0.0
+torch>=2.5.1
+torchaudio>=2.5.1
+transformers>=4.48.1
+
+# Zonos dependencies
+numpy>=2.2.2
+inflect>=7.5.0
+kanjize>=1.5.0
+phonemizer>=3.3.0
+sudachidict-full>=20241021
+sudachipy>=0.6.10
+soundfile>=0.13.1
+huggingface-hub>=0.28.1
+
+# Optional dependencies for hybrid model (commented out by default)
+# flash-attn>=2.7.3
+# mamba-ssm>=2.2.4
+# causal-conv1d>=1.5.0.post8
+
+# Note: To install Zonos itself, run:
+# pip install -e ./Zonos
